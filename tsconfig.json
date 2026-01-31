@@ -10,5 +10,8 @@
     "esModuleInterop": true,
     "skipLibCheck": true
   },
-  "include": ["bin/**/*.ts", "lib/**/*.ts"]
+  "include": [
+    "infrastructure/cdk/bin/**/*.ts",
+    "infrastructure/cdk/lib/**/*.ts"
+  ]
 }

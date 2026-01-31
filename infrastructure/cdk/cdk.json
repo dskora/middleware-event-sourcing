@@ -1,0 +1,13 @@
+{
+  "app": "npx ts-node --prefer-ts-exts bin/app.ts",
+  "context": {
+    "envs": {
+      "dev": {
+        "apiDescription": "Dev env API description"
+      },
+      "prod": {
+        "apiDescription": "Prod env API description"
+      }
+    }
+  }
+}
