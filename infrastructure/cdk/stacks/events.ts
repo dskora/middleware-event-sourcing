@@ -17,7 +17,6 @@ export class EventsStack extends Stack {
 
     // One SQS per consumer (decoupling, backpressure, independent retries)
     const consumerAQueue = this.makeConsumerQueue("ConsumerA");
-    const consumerBQueue = this.makeConsumerQueue("ConsumerB");
     const consumerShippingQueue = this.makeConsumerQueue("Shipping");
 
     // Example routing rule: OrderCreated -> ConsumerA + Shipping
